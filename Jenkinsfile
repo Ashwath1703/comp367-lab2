@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER = 'YOUR_DOCKER_USERNAME'
+        DOCKERHUB_USER = 'ashwath1703'
         DOCKERHUB_PWD = credentials('dockerhub-pwd')
         IMAGE_NAME = "${DOCKERHUB_USER}/lab3-maven-webapp:latest"
     }
